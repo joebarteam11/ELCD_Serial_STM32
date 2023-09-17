@@ -1,7 +1,7 @@
 #include "mbed.h"
 #include "eLCD_Serial.h"
 
-eLCD_Serial LCD(D1);
+eLCD_Serial LCD(D1); // tx pin, no Rx required
 string test="Score :";
 
 int main()
