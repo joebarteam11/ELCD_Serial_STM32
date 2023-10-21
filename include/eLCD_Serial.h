@@ -30,6 +30,7 @@ public:
     void moveCursor(int x, int y);
     void print(string text);
     void print(int number);
+    void scroll(int number);
 };
 
 

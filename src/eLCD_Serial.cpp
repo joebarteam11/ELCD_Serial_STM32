@@ -85,3 +85,16 @@ void eLCD_Serial::print(int number)
     _base_putc(0x00);
     ThisThread::sleep_for(100ms);
 }
+
+void eLCD_Serial::scroll(int number)
+{   
+    std::string text = std::to_string(number);
+    _base_putc(0xA2);
+    for(int i=0;i<text.length();i++)
+    {
+        _base_putc(text[i]);
+        
+    }
+    _base_putc(0x00);
+    ThisThread::sleep_for(100ms);
+}
