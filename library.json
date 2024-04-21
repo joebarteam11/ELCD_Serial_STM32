@@ -1,0 +1,22 @@
+{
+    "name": "ELCD_Serial_STM32",
+    "version": "1.0.0",
+    "description": "Library for ELCD serial board (compatible with MBED, Arduino...)",
+    "keywords": "LCD, ELCD, Serial, Mbed, Arduino, STM32",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/joebarteam11/ELCD_Serial_STM32"
+    },
+    "authors":
+    [
+      {
+        "name": "joebarteam11",
+        "email": "85874120+joebarteam11@users.noreply.github.com"
+      }
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/ARMmbed/mbed-os/blob/master/LICENSE-apache-2.0.txt",
+    "frameworks": "mbed",
+    "platforms": "STM32"
+  }
